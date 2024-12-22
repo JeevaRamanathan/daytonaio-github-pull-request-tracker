@@ -10,7 +10,12 @@ An AI-powered tool designed to efficiently track your GitHub pull requests acros
    ```bash  
    daytona create https://github.com/JeevaRamanathan/daytonaio-github-pull-request-tracker.git 
    ```
+3. **Setting up environment varaibles**:
 
+    Create a `.env.local` file by copying `.env.example`
+    
+    Place your GitHub personal access token and GraphQL API key in this file. You can obtain the GitHub token and groq API key here. [[Github Token](https://github.com/settings/tokens) | [Groq API Key](https://console.groq.com/keys)]
+   
 4. **Start the Application**:  
    ```bash  
    npm run dev
